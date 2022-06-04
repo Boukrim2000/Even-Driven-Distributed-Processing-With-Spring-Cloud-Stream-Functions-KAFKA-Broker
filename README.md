@@ -17,6 +17,8 @@ Maintenant on envoie des messages par le producer et on teste s'ils vont arrivé
 
 Après avoir tester le fonctionnement de broker kafka avec kafka-console-consumer et kafka-console-producer on passe à la création d'une application Spring Boot dans la quelle on va essayer de produire des messages dans un topic.
 
+Dans la première partie on a publié des messages vers le topic kafka à travers un RestController :
+![image](https://user-images.githubusercontent.com/78086000/172027212-4aa0e4e9-fbdf-4388-afd2-df512ea47ef6.png)
 
 
 
