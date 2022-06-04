@@ -14,3 +14,9 @@ Pour envoyer des messages vers ce topic on va lancer kafka-console-producer :
 
 Maintenant on envoie des messages par le producer et on teste s'ils vont arrivés au consommateur via le broker kafka :
 ![image](https://user-images.githubusercontent.com/78086000/172025363-c4403311-649b-47c5-aa68-da3464edeaf0.png)
+
+Après avoir tester le fonctionnement de broker kafka avec kafka-console-consumer et kafka-console-producer on passe à la création d'une application Spring Boot dans la quelle on va essayer de produire des messages dans un topic.
+
+
+
+
