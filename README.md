@@ -32,6 +32,9 @@ Dans le quatrième cas on va créer à la fois un producer et un consumer :
 Après pour traiter les flux de message en temps réel nous avons utilisés kafka stream :
 ![image](https://user-images.githubusercontent.com/78086000/172077489-5af509c2-a6e1-4846-b8cb-7635a2f87339.png)
 
+Pour accélérer l'affichage des résultats (statistiques) fournit par kafka stream on va le faire commiter les résultat au bout de chaque seconde :
+![image](https://user-images.githubusercontent.com/78086000/172078092-e965bff2-34c5-448d-ab72-f8db40287418.png)
+
 
 
 
