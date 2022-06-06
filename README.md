@@ -35,6 +35,8 @@ Après pour traiter les flux de message en temps réel nous avons utilisés kafk
 Pour accélérer l'affichage des résultats (statistiques) fournit par kafka stream on va le faire commiter les résultat au bout de chaque seconde :
 ![image](https://user-images.githubusercontent.com/78086000/172078092-e965bff2-34c5-448d-ab72-f8db40287418.png)
 
+Pour éviter le cumul des résultats on va faire des statistiques sur une fenêtre de temps en utilisant un opérateur de fenêtrage qui s'appelle windowedBy :  
+
 
 
 
