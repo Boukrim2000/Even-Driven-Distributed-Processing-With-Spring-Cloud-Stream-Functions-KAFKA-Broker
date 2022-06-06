@@ -29,6 +29,10 @@ Pour le troisième cas au lieu d'utiliser kafka-console-producer on va créer un
 Dans le quatrième cas on va créer à la fois un producer et un consumer :
 ![image](https://user-images.githubusercontent.com/78086000/172049826-3d196789-c334-4b1f-b718-cd6f89890240.png)
 
+Après pour traiter les flux de message en temps réel nous avons utilisés kafka stream :
+![image](https://user-images.githubusercontent.com/78086000/172077489-5af509c2-a6e1-4846-b8cb-7635a2f87339.png)
+
+
 
 
 
