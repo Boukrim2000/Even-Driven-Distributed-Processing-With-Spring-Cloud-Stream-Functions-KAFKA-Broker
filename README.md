@@ -44,6 +44,8 @@ Interroger Kafka-streams Store avec Server Sent Event :
 Une fois le client établit une connexion http (la connexion reste ouverte), le serveur va poucer les données vers le client 
 ![image](https://user-images.githubusercontent.com/78086000/172172998-3d1208a3-7355-4a70-85a6-12769889759b.png)
 
+Client HTML Server Sent Event :
+![image](https://user-images.githubusercontent.com/78086000/172179335-ef96241a-d811-4e81-89eb-cdd7e41525bd.png)
 
 
 
