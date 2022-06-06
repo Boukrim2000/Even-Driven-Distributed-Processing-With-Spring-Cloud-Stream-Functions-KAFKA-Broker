@@ -36,6 +36,7 @@ Pour accélérer l'affichage des résultats (statistiques) fournit par kafka str
 ![image](https://user-images.githubusercontent.com/78086000/172078092-e965bff2-34c5-448d-ab72-f8db40287418.png)
 
 Pour éviter le cumul des résultats on va faire des statistiques sur une fenêtre de temps de 5 secondes en utilisant un opérateur de fenêtrage qui s'appelle windowedBy : 
+
 ![image](https://user-images.githubusercontent.com/78086000/172160146-cae199b0-e071-4075-b5d1-13348de139f3.png)
 
 Pour utiliser les résultats provenant de ktable dans une application on peut les percister dans un store :
