@@ -35,8 +35,18 @@ Après pour traiter les flux de message en temps réel nous avons utilisés kafk
 Pour accélérer l'affichage des résultats (statistiques) fournit par kafka stream on va le faire commiter les résultat au bout de chaque seconde :
 ![image](https://user-images.githubusercontent.com/78086000/172078092-e965bff2-34c5-448d-ab72-f8db40287418.png)
 
-Pour éviter le cumul des résultats on va faire des statistiques sur une fenêtre de temps en utilisant un opérateur de fenêtrage qui s'appelle windowedBy :  
+Pour éviter le cumul des résultats on va faire des statistiques sur une fenêtre de temps de 5 secondes en utilisant un opérateur de fenêtrage qui s'appelle windowedBy : 
 ![image](https://user-images.githubusercontent.com/78086000/172160146-cae199b0-e071-4075-b5d1-13348de139f3.png)
+
+Pour utiliser les résultats provenant de ktable dans une application on peut les percister dans un store :
+
+Interroger Kafka-streams Store avec Server Sent Event :
+Une fois le client établit une connexion http (la connexion reste ouverte), le serveur va poucer les données vers le client 
+![image](https://user-images.githubusercontent.com/78086000/172172998-3d1208a3-7355-4a70-85a6-12769889759b.png)
+
+
+
+
 
 
 
